@@ -5,7 +5,7 @@
     "short_description": "Kickstart npm libraries",
     "base_url": "github.com",
     "namespace": "4so-fourseasons",
-    "repo_url": "https://{{cookiecutter.base_url}}/{{cookiecutter.namespace}}/{{cookiecutter.project_name}}",
+    "repo_url": "git@{{cookiecutter.base_url}}:{{cookiecutter.namespace}}/{{cookiecutter.project_name}}.git",
     "url": "https://{{cookiecutter.base_url}}/{{cookiecutter.namespace}}/{{cookiecutter.project_name}}/issues",
     "homepage": "http://4so.de"
 }

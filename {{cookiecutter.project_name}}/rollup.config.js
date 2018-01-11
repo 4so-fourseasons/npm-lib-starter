@@ -10,7 +10,7 @@ const config = {
   output: {
     format: 'umd'
   },
-  name: 'functionstein',
+  name: '{{cookiecutter.project_name}},
   plugins: [
     babel({
       exclude: 'node_modules/**',

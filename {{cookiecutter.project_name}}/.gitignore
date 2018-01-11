@@ -178,10 +178,8 @@ jspm_packages
 src/js/main.bundle.*
 src/css
 
-/dist
 /es
 /lib
-/build
 
 */**/sprite.svg
 */**/_svg-sprite.scss

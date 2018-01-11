@@ -1,6 +1,6 @@
 {
-  "name": "functionstein",
-  "version": "1.7.2",
+  "name": "{{cookiecutter.project_name}}",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index/js",
@@ -10,18 +10,15 @@
     "lib",
     "src"
   ],
-  "description": "Creating the monster. Weird collection of useful functions I often need.",
+  "description": "{{cookiecutter.short_description}}",
   "repository": {
     "type": "git",
-    "url": "https://github.com/on3iro/functionstein"
+    "url": "{{cookiecutter.repo_url}}"
   },
   "keywords": [
-    "helpers",
-    "functions",
-    "fp"
   ],
   "bugs": {
-    "url": "https://github.com/on3iro/functionStein/issues"
+    "url": "{{cookiecutter.url}}"
   },
   "scripts": {
     "clean": "rimraf dist lib es",
@@ -83,11 +80,11 @@
   "license": "MIT",
   "private": false,
   "author": {
-    "name": "Theo Salzmann",
-    "email": "dev@on3iro.de"
+    "name": "{{cookiecutter.maintainer}}",
+    "email": "{{cookiecutter.email}}"
   },
   "contributors": [],
-  "homepage": "https://github.com/on3iro/functionStein",
+  "homepage": "{{cookiecutter.homepage}}",
   "dependencies": {
     "babel-polyfill": "6.26.0"
   },
