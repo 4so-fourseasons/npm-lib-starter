@@ -1,0 +1,11 @@
+{
+    "project_name": "npm-lib-starter",
+    "maintainer": "Theo Salzmann",
+    "email": "theo.salzmann@4so.de",
+    "short_description": "Kickstart npm libraries",
+    "base_url": "github.com",
+    "namespace": "4so-fourseasons",
+    "repo_url": "https://{{cookiecutter.base_url}}/{{cookiecutter.namespace}}/{{cookiecutter.project_name}}",
+    "url": "https://{{cookiecutter.base_url}}/{{cookiecutter.namespace}}/{{cookiecutter.project_name}}/issues",
+    "homepage": "http://4so.de"
+}
