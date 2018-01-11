@@ -5,6 +5,7 @@
 * [npm-lib-starter](#npm-lib-starter)
     * [Description](#description)
         * [What does it actually do?](#what-does-it-actually-do)
+        * [Used Libraries and tools](#used-libraries-and-tools)
         * [CI](#ci)
     * [Installation](#installation)
     * [Development](#development)
@@ -61,6 +62,17 @@ The following things can be done inside the initial setup:
 Afterwards your project is ready to push to your remote and to be published to
 npm. For further information about the publishing process and available scripts
 have a look at [API](#api) and [Publishing](#publishing).
+
+
+### Used Libraries and tools
+
+* Cookiecutter
+* FlowJS
+* standardJS
+* Babel
+* Rollup.JS
+* JSDoc
+* Husky
 
 
 ### CI
