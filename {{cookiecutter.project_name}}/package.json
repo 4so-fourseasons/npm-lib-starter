@@ -1,5 +1,5 @@
 {
-  "name": "{{cookiecutter.project_name}}",
+  "name": "{%- if cookiecutter.scoped_package == 'yes' -%}@{{cookiecutter.namespace}}/{%- endif -%}{{cookiecutter.project_name}}",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
